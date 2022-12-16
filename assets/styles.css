@@ -1,0 +1,140 @@
+body {
+    background-color: #b2c6d8;
+    color:#122A48;
+    font-family:'Verdana';
+    display:flex;
+    flex-direction:column;
+}
+/* general style classes */
+.flex{
+    display: flex;
+}
+
+.side-padding{
+    padding: 10px;
+}
+
+/* added general styling for nav bar */
+header {
+    background-color: #4a7777;
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+header h1 {
+    margin-left:1rem;
+    font-size:32px;
+    color:white;
+}
+
+.avatar {
+    width: 10rem;
+    margin-right: 29%;
+    border-radius:48%;
+}
+
+nav {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+}
+
+nav ul li {
+    list-style-type:none;
+    margin-right:3rem;
+    display:inline;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* had to add below to remove external link style */
+a:any-link {
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+}
+
+/* added border and width to each heading */
+article > h2{
+    border-right: 3px solid rgb(34, 69, 114);
+    padding:20px;
+}
+
+.width {
+    width: 10%;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+    width:80%;
+}
+
+/* added background images to projects links */
+.projects{ 
+    display: flex;
+    flex:wrap;
+}
+
+.first-project{
+    background-image: url(./images/books.jpeg);
+    background-size:cover; 
+    background-repeat:no-repeat;
+    font-weight:bolder;
+    padding: 15rem;
+    width:40%;
+}
+
+.second-project {
+    background-image: url(./images/lavender-bees.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 5rem;
+    font-weight:bolder;
+    width:5%;
+}
+
+.third-project {
+    background-image: url(./images/winter-forest.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-weight:bolder;
+    padding:5rem;
+    width:5%;
+}
+
+.center-text {
+    text-align: center;
+    line-height:initial;
+}
+
+/* added general styling for the contact info listed in html */
+.links ul {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.links ul li {
+    list-style-type:none;
+    justify-content:center;
+    padding: 20px 20px;
+}
+
+footer {
+    padding: 28px;
+    clear: both;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    display:block;
+}
+
+/*
