@@ -5,4 +5,4 @@ The purpose of this challenge was to create a functional website from scratch to
 To access the site please click here: . To access the code for the site, right click anywhere and choose "investigate."
 ## Preview
 <img src="Screenshot 1.png">
-<img src="Schreenshot 2.png">
+<img src="Screenshot 2.png">
