@@ -110,6 +110,15 @@ article > h2{
     width:5%;
 }
 
+.fourth-project {
+    background-image: url(./images/butterflies.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-weight:bolder;
+    padding:5rem;
+    width:5%;
+}
+
 .center-text {
     text-align: center;
     line-height:initial;
