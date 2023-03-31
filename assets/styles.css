@@ -68,7 +68,7 @@ article > h2{
 }
 
 .width {
-    width: 10%;
+    width: 6rem;
 }
 
 .content {
@@ -88,8 +88,8 @@ article > h2{
     background-size:cover; 
     background-repeat:no-repeat;
     font-weight:bolder;
-    padding: 15rem;
-    width:40%;
+    padding: 10rem;
+    width:10%;
 }
 
 .second-project {
@@ -107,7 +107,7 @@ article > h2{
     background-repeat:no-repeat;
     font-weight:bolder;
     padding:5rem;
-    width:5%;
+    width:2%;
 }
 
 .fourth-project {
@@ -116,7 +116,16 @@ article > h2{
     background-repeat:no-repeat;
     font-weight:bolder;
     padding:5rem;
-    width:5%;
+    width:2%;
+}
+
+.fifth-project {
+    background-image: url(./images/fields.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-weight:bolder;
+    padding:5rem;
+    width:2%;
 }
 
 .center-text {
